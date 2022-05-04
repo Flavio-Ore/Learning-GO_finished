@@ -1,0 +1,6 @@
+Bill breakdown: 
+Comida:                   ...$20.6 
+Agua:                     ...$9.6 
+Gaseosa:                  ...$3 
+tip:                      ...$5
+total:                    ...$38.20 

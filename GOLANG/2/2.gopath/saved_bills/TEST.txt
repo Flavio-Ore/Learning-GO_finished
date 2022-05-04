@@ -1,0 +1,5 @@
+Bill breakdown: 
+item:                     ...$123 
+sopa:                     ...$3 
+tip:                      ...$123
+total:                    ...$249.00 

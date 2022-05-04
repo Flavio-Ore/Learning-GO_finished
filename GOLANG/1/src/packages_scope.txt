@@ -1,0 +1,10 @@
+3 Levels of scope:
+BLock | Package | Universe
+
+├── employee
+│   ├── go.mod
+│   ├── main.go
+│   └── basic
+│       └── basic.go
+│       └── gross
+│       	└── gross.go

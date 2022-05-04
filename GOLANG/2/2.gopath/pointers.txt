@@ -1,0 +1,30 @@
+Pointers:
+
+* / &
+
+Los punteros es una variable que nos permite acceder a la dirección de memoria, sirve para pasar una variable como referencia dentro de una función para modificar internamente esa variable al interior de esa función y que al exterior se conserve este valor modificado. EVITA CREAR COPIAS.
+
+Operador de Dirreción => & 0xc0001
+Operador de Desreferenciación => *
+
+e.g.
+
+func declaraciónDePunteros () {
+    //forma 1 implícita
+    var puntero1 *int //no me crea un espacio de memoria
+    fmt.Println(puntero1)
+    output: <nil>
+
+    //forma 2 explícita
+    var puntero2 = new(int) //con new me crea un espacio en memoria con int
+    fmt.Println(puntero2)
+    output: 0XC000016098
+}
+func punteroUpdated () {
+    var myVar string = "original message"
+    var puntero *string = &myVar
+    *puntero = "original message updated"
+    he modificado el valor de myVar mediante el puntero
+}
+
+
